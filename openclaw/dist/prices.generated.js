@@ -75,8 +75,10 @@ exports.GENERATED_PRICING = {
     "gpt-5.6-terra": { input: 2.0 / 1e6, output: 12.0 / 1e6, cacheRead: 0.2 / 1e6, cacheWrite: 2.5 / 1e6 },
     "gpt-6-astra": { input: 10.0 / 1e6, output: 50.0 / 1e6, cacheRead: 1.0 / 1e6, cacheWrite: 12.5 / 1e6 },
     "gpt-6-luna": { input: 0.1 / 1e6, output: 0.5 / 1e6, cacheRead: 0.01 / 1e6, cacheWrite: 0.125 / 1e6 },
+    "gpt-6-rosalind": { input: 15.0 / 1e6, output: 75.0 / 1e6, cacheRead: 1.5 / 1e6, cacheWrite: 18.75 / 1e6 },
     "gpt-6-sol": { input: 2.0 / 1e6, output: 10.0 / 1e6, cacheRead: 0.2 / 1e6, cacheWrite: 2.5 / 1e6 },
     "gpt-6.1-sol": { input: 2.0 / 1e6, output: 10.0 / 1e6, cacheRead: 0.1 / 1e6, cacheWrite: 2.5 / 1e6 },
+    "gpt-6.1-terra": { input: 1.0 / 1e6, output: 5.0 / 1e6, cacheRead: 0.05 / 1e6, cacheWrite: 1.25 / 1e6 },
     "o1": { input: 15.0 / 1e6, output: 60.0 / 1e6, cacheRead: 7.5 / 1e6, cacheWrite: 0 / 1e6 },
     "o1-pro": { input: 150.0 / 1e6, output: 600.0 / 1e6, cacheRead: 150.0 / 1e6, cacheWrite: 0 / 1e6 },
     "o3": { input: 2.0 / 1e6, output: 8.0 / 1e6, cacheRead: 0.5 / 1e6, cacheWrite: 0 / 1e6 },
@@ -120,8 +122,10 @@ exports.GENERATED_OPENAI_LONG_CONTEXT_PRICING = {
     "gpt-5.6-terra": { input: 4.0 / 1e6, output: 18.0 / 1e6, cacheRead: 0.4 / 1e6, cacheWrite: 5.0 / 1e6 },
     "gpt-6-astra": { input: 20.0 / 1e6, output: 75.0 / 1e6, cacheRead: 2.0 / 1e6, cacheWrite: 25.0 / 1e6 },
     "gpt-6-luna": { input: 0.2 / 1e6, output: 0.75 / 1e6, cacheRead: 0.02 / 1e6, cacheWrite: 0.25 / 1e6 },
+    "gpt-6-rosalind": { input: 30.0 / 1e6, output: 112.5 / 1e6, cacheRead: 3.0 / 1e6, cacheWrite: 37.5 / 1e6 },
     "gpt-6-sol": { input: 4.0 / 1e6, output: 15.0 / 1e6, cacheRead: 0.4 / 1e6, cacheWrite: 5.0 / 1e6 },
     "gpt-6.1-sol": { input: 4.0 / 1e6, output: 15.0 / 1e6, cacheRead: 0.2 / 1e6, cacheWrite: 5.0 / 1e6 },
+    "gpt-6.1-terra": { input: 2.0 / 1e6, output: 7.5 / 1e6, cacheRead: 0.1 / 1e6, cacheWrite: 2.5 / 1e6 },
 };
 // Above 200,000 input tokens per request.
 exports.GENERATED_GEMINI_LONG_CONTEXT_PRICING = {
