@@ -46,13 +46,6 @@
    "cache_write": 0.3,
    "cache_write_1h": 0.5
   },
-  "haiku_3_5": {
-   "input": 0.8,
-   "cache_write": 1.0,
-   "cache_write_1h": 1.6,
-   "cache_read": 0.08,
-   "output": 4.0
-  },
   "haiku_4_5": {
    "input": 1.0,
    "cache_write": 1.25,
@@ -427,11 +420,28 @@
    "cache_read": 1.0,
    "cache_write": 12.5
   },
+  "gpt-6-astra-law": {
+   "input": 10.0,
+   "output": 50.0,
+   "cache_read": 1.0
+  },
+  "gpt-6-cyber": {
+   "input": 20.0,
+   "output": 100.0,
+   "cache_read": 2.0,
+   "cache_write": 25.0
+  },
   "gpt-6-luna": {
    "input": 0.1,
    "output": 0.5,
    "cache_read": 0.01,
    "cache_write": 0.125
+  },
+  "gpt-6-rosalind": {
+   "input": 15.0,
+   "output": 75.0,
+   "cache_read": 1.5,
+   "cache_write": 18.75
   },
   "gpt-6-sol": {
    "input": 2.0,
@@ -444,6 +454,12 @@
    "output": 10.0,
    "cache_read": 0.1,
    "cache_write": 2.5
+  },
+  "gpt-6.1-terra": {
+   "input": 1.0,
+   "output": 5.0,
+   "cache_read": 0.05,
+   "cache_write": 1.25
   },
   "o1": {
    "input": 15.0,
@@ -539,6 +555,12 @@
    "cache_read": 0.02,
    "cache_write": 0.25
   },
+  "gpt-6-rosalind": {
+   "input": 30.0,
+   "output": 112.5,
+   "cache_read": 3.0,
+   "cache_write": 37.5
+  },
   "gpt-6-sol": {
    "input": 4.0,
    "output": 15.0,
@@ -550,6 +572,12 @@
    "output": 15.0,
    "cache_read": 0.2,
    "cache_write": 5.0
+  },
+  "gpt-6.1-terra": {
+   "input": 2.0,
+   "output": 7.5,
+   "cache_read": 0.1,
+   "cache_write": 2.5
   }
  },
  "gemini": {
@@ -648,6 +676,11 @@
    "output": 9.0,
    "cache_read": 0.15
   },
+  "gemini-omni-1.2-flash": {
+   "input": 1.5,
+   "output": 9.0,
+   "cache_read": 0.15
+  },
   "gemini-omni-flash-preview": {
    "input": 1.5,
    "output": 9.0,
@@ -691,5 +724,5 @@
    "cache_read": 0.4
   }
  },
- "generated_at": "2026-10-16T11:36:52Z"
+ "generated_at": "2026-11-07T13:18:12Z"
 }
